@@ -1,0 +1,31 @@
+Website-->collection of web pages
+two types of Website
+-->static-->only read-->portfotio
+-->dynamic read & write--> instagram
+
+WebApps-->Web apps (Web Applications) are software programs that run in a web browser instead of being installed on your computer.
+You just need:
+Internet
+Browser (Chrome, Edge, Firefox)
+
+frontend -->APIs--> backend -->APIs--> databases
+
+Frontend -->html,css,js,react,angular
+backend-->node,python ,ruby
+databases-->rational matlab tables-->mysql
+non rational-->mongodb
+
+///////////////////////////////////////////////////////////////////////////////////
+FRONTEND
+
+HTML-->Hypertext Markup Language
+-->provides structure to the website
+-->backbone of any website
+
+CSS-->Cascading style sheet
+-->provides styling to the webpage
+
+JavaScript -->provides functionality to the website             -->
+
+
+

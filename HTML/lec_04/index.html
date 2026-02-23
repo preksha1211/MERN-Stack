@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Unordered List (<ul>)--> Unordered List
+    <ul >
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+    </ul>
+
+    <!--Ordered List--> -Ordered List
+    <ol>
+        <li>Wake up</li>
+        <li>Brush</li>
+        <li>Study</li>
+    </ol>
+
+    <!--Description list--> Description list
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Style sheet language</dd>
+    </dl>
+     
+    <!--attributes-->
+    <ol type="A" start="5">
+        <li>love</li>
+        <li>flower</li>
+        <li>pencil</li>
+        <li>deep</li>
+    </ol>
+
+    <!--Practice-->
+    <!--The browser automatically changes bullet style in nested <ul> elements based on depth level.-->
+    <ol type="I">
+        <li>List Item 1
+            <ol type="a">
+                <li>Nested Item 1.1</li>
+                <li>Nested Item 1.2</li>
+            </ol>
+
+        </li>
+
+        <li>List Item 1
+            <ol>
+                <li>Nested Item 2.1</li>
+                <li>Nested Item 2.2
+                    <ul type="circle">
+                        <li>Nested Item 2.2.1</li>
+                        <li>Nested Item 2.2.2</li>
+                            <ul type="square">
+                                <li>Nested Item 2.2.2.1</li>
+                                <li>Nested Item 2.2.2.2</li>
+
+                            </ul>
+                        </li>
+                        <li>Nested Item 2.2.3</li>
+                    </ul>
+                </li>
+                <li>Nested Item 2.3</li>
+            </ol>
+
+        </li>
+
+        <li>List Item 3
+            <ul type="square">
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.2</li>
+                <li>Nested Item 3.2</li>
+            </ul>
+        </li>
+
+    </ol>
+
+    <!--Emmet :The browser automatically changes bullet style in nested <ul> elements based on depth level.-->
+        ul>li*3
+        ul>li.item$*3vc
+
+</body>
+</html>
+
+
+<!--
+ <ul> → unordered (bullets)
+ <ol> → ordered (numbers)
+ <li> → list item
+ <dl> → description list
+ <dt> → term
+ <dd> → description
+-->
