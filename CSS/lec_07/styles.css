@@ -1,0 +1,72 @@
+h1{
+    color:yellowgreen;
+}
+
+/* class  */
+.wrapper{
+    background-color: blue;
+}
+
+/* id  */
+#hello{
+    background-color: orange;
+}
+.container{
+    background-color: rgb(7, 215, 7);
+}
+
+
+
+.message{
+    color: white;
+    background-color: purple;
+}
+
+/* ul li:nth-child(4){
+    background-color: red;
+} */
+
+/* ul li:nth-last-child(4){
+    background-color: peru;
+} */
+
+/* 
+ul li:nth-of-type(2n + 1){ 
+    background-color: purple;
+} */
+
+
+ul li:hover{
+    background-color: purple;
+    color: white;
+}
+
+
+/* CSS (Cascading Style Sheets)
+CSS is used to style HTML elements (color, size, spacing, layout).
+HTML = Structure
+CSS = Styling */
+
+/* how to inilialize css in html document
+-->inline css
+-->internal css
+-->external css
+
+Inline css --> Inline CSS means writing CSS directly inside 
+the HTML element using the style attribute.
+
+Internal CSS -->  is written inside the <style> tag within the <head> section of an HTML document.
+It is used when you want to style one single HTML page.
+
+Priority Order (Important for Interview)
+1️⃣ Inline CSS (Highest priority)
+2️⃣ Internal CSS
+3️⃣ External CSS */
+
+
+/* Interview Most Important
+
+✅ ID selector has higher specificity than class
+✅ Class selector is reusable
+✅ > selects direct child
+✅ Space selects all descendants */

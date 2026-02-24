@@ -1,0 +1,27 @@
+h1{
+    color:yellow;
+
+    /* font */
+    font-size:30px;
+    font-family: 'Arial';
+    font-weight:200; /*bold ke liye*/
+    font-style: italic;
+
+    /* text */
+    text-align: center;
+    text-decoration: underline wavy 3px;
+    text-decoration-color: black ;
+    /* text-decoration: overline; */
+    text-transform: uppercase;
+    text-shadow: 4px 4px 3px black;
+    /* +y -->downwards  -y -->upwards  */
+
+
+}
+
+.dummytext{
+    background-color: rgb(177, 235, 206);
+    color: crimson;
+}
+
+
