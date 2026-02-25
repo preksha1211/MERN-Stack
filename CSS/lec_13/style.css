@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* overflow-y: scroll; */
+    margin: auto;
+    border: 5px solid red;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    /* main axis  */
+    justify-content: space-between;
+    /* cross axis  */
+    align-items: center;
+    /* gap: 8px; */
+    align-content: space-evenly;
+    
+}
+
+.box{
+    background-color: violet;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+
+}
+
+.box2{
+    align-self: flex-start;
+}
+/* flexbox is a layout sysytem in which we arrange elements in a row or column . */
+
+/* Main Axis vs Cross Axis
+Row → Main Axis = Horizontal
+Column → Main Axis = Vertical
+
+flex-direction-->Direction decide करता है।
+row (default)
+column
+row-reverse
+column-reverse
+
+justify-content-->Main axis alignment
+Values:
+flex-start
+center
+flex-end
+space-between--sirf items k beech m same space hoga aur around pace nhi hoga
+space-around--same space between and around but around ka space aur between ka soace apas m same nhi hoga
+space-evenly--same space between and around and apas m bhi same hoga
+
+align-items--Cross axis alignment
+Values:
+flex-start
+center
+flex-end
+stretch
+
+gap--Items के बीच space
+
+flex-wrap-->Items next line में जाते हैं।
+Types:
+nowrap
+wrap
+wrap-reverse
+
+align-content-->Multiple rows के लिए use होता है */
