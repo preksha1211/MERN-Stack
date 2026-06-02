@@ -1,0 +1,1 @@
+//basically properties are custom attributes

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 1. React core library -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+    <!-- 2. React DOM (browser ke liye) -->
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- 3. Babel (JSX ko JS mein convert kare) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="main">
+
+    </div>
+    <script>
+        // Plain JS - DOM manipulation
+        // const h1 =  document.createElement('h1');
+        // h1.innerText='code thread';
+        // console.log(h1);
+        // document.getElementById('main').appendChild(h1);
+        
+        //React way
+        const h1=React.createElement('h1',{id:1, class:'nishant',style:{backgroundColor:'blue'}},'code thread');
+        console.log(h1);
+        //react dom is used render the element
+        const root = ReactDOM.createRoot(document.getElementById('main'));
+        root.render(h1);  
+    </script>
+</body>
+</html>
