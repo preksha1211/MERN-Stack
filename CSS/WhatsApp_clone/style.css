@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height:100vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-x: hidden;
+    background-color: #fbf5ed;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+.container{
+    height:100%;
+}
+
+/* NAVBAR */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(251, 245, 237, 0.6);
+    backdrop-filter: blur(12px);
+    
+}
+
+.whts-logo > img {
+    height: 35px;
+    width: 130px;
+}
+
+.nav-item {
+   
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.features {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.features > img {
+    height: 11px;
+    width: 10px;
+    transform: rotate(-90deg);
+}
+
+/* DOWNLOAD BUTTON */
+.dwn-btn ,.btn {
+    display: flex;
+    gap: 8px;
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+      background-color:#25d366;
+    border: none;
+    cursor: pointer;
+}
+
+.dwn-btn > img {
+    height: 20px;
+    width: 20px;
+}
+.strike{
+    position: relative;
+}
+.strike::after{
+    content:"";
+    position: absolute;
+    width:100%;
+    height:2px;
+    
+    bottom:0%;
+    left:0%;
+    background-color:#25d366;
+    transform:scaleX(0);
+    transition:all 0.5s ease-in-out;
+    transform-origin:left;
+    
+}
+.strike:hover::after{
+    cursor: pointer;
+      transform:scaleX(1);
+}
+.strike:hover{
+    cursor: pointer;
+      
+}
+.firstSection{
+    padding-top:40px; 
+    height:120%;
+    width:100%;
+}
+.maaBeti{
+    border-radius: 40px;
+    background-image:url(pics/whatsApp/MaaBeti.png);
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.firstSection>p{
+    font-size:13px;
+    opacity:0.9;
+    text-align: end;
+    padding-top: 10px;
+}
+.right{
+    position :relative;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    padding-top:50px;
+}
+.right img{
+    width:450px;
+}
+
+.right img:nth-child(2){
+    width:450px;
+    position:absolute;
+     left:5px;
+    top:65px;
+
+}
+.right img:nth-child(5){
+   
+    margin-top:5px;
+
+}
+.right img:nth-child(6){
+   
+    position:relative;
+    bottom:25px;
+
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    gap:90px;
+}
+.leftMsg{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+ 
+}
+
+.leftMsg h1{
+    font-size:80px;
+    font-weight:450;
+    line-height: 80px;
+    letter-spacing: -4px;
+    
+}
