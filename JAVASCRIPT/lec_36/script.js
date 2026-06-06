@@ -18,7 +18,7 @@
 // hello(()=>{
 //     console.log("inside callback");
 // })
-
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 function fun1(text){
     function func2(){
         console.log(text);
@@ -35,3 +35,22 @@ res(); //prints from fun1
 // Ye preserved combination:
 // function + its lexical environment
 // ko closure kehte hain.
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ //cLOSURES
+
+
+ function fun1(text) {
+  let a = 4;
+  
+  function fun2() {
+    console.log(a + " " + text);
+  }
+  
+  a = 50;        // a update ho gaya
+  text = "nice"  // text update ho gaya
+  return fun2;
+}
+
+let res = fun1("from fun 1");
+res();
