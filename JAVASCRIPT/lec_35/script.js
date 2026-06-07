@@ -13,7 +13,7 @@ greet("Preksha", sayHello); // Hello Preksha
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-closures--> Function return karna
+// closures--> Function return karna
 function multiply(x) {
   return function(y) {
     return x * y;
@@ -25,7 +25,7 @@ console.log(double(3)); // 6
 
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Real life examples — ye roz use hote hain!
+// Real life examples — ye roz use hote hain!
 const nums = [1, 2, 3, 4, 5];
 
 // map — har element pe function apply karo

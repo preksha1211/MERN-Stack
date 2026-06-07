@@ -5,9 +5,9 @@ function greet(){
 }
 greet();
 
-// Method--> kisi object ke andar hota h
+// Method-->jab function kisi object ke andar hota h as a key 
 const obj = {
-    hello:function{
+    hello:function(){
        console.log("hello");
 
     }

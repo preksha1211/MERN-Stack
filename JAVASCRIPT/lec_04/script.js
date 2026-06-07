@@ -1,4 +1,4 @@
-variables -->variables are the named memory location
+//variables -->variables are the named memory location
 
 
 // LET

@@ -2,25 +2,25 @@
 // Anywhere access kar sakte ho
 name = "Preksha";
 function greet() {
-  console.log(name); // works ✅
+  console.log(name); // works 
 }
 
 
 
 // 2. Function Scope (var)
 // Sirf function ke andar accessible
- greet() {
+ function greet() {
   var msg = "hello";
 }
-console.log(msg); // ReferenceError ❌
+console.log(msg); // ReferenceError 
 
 
 // 3. Block Scope (let/const)
 // Sirf { } block ke andar accessible
- (true) {
+ if(true) {
   let x = 10;
 }
-console.log(x); // ReferenceError ❌
+console.log(x); // ReferenceError 
 
 
 // var-->3,3,3
